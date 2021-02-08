@@ -10,7 +10,7 @@ public class WelcomeController {
 	@RequestMapping("/welcome")
 	public ModelAndView disWelcomeMsg() {
 		ModelAndView mav=new ModelAndView();
-		mav.addObject("msg", "This is Welcome Page..!");
+		mav.addObject("msg", "Hi,This is Welcome Page..!");
 		mav.setViewName("index");
 		return mav;
 		
